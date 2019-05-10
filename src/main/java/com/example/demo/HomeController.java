@@ -28,4 +28,12 @@ public class HomeController {
     public String github2() {
         return "github2";
     }
+    @RequestMapping("/program1")
+    public String program1() {
+        return "program1";
+    }
+    @RequestMapping("/program2")
+    public String program2() {
+        return "program2";
+    }
 }
