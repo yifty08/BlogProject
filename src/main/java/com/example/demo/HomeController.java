@@ -36,4 +36,25 @@ public class HomeController {
     public String github2() {
         return "github2";
     }
+
+    @RequestMapping("/program1")
+    public String program1() { return "program1"; }
+    @RequestMapping("/program2")
+    public String program2() {
+        return "program2";
+    }
+
+    @RequestMapping("/oop1")
+    public String oop1() { return "oop1"; }
+    @RequestMapping("/oop2")
+    public String oop2() {
+        return "oop2";
+    }
+
+    @RequestMapping("/html1")
+    public String html1() { return "html1"; }
+    @RequestMapping("/html2")
+    public String html2() {
+        return "html2";
+    }
 }
