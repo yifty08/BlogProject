@@ -10,6 +10,14 @@ public class HomeController {
     public String homepage() {
         return "index";
     }
+    @RequestMapping("/about")
+    public String about() {
+        return "about";
+    }
+    @RequestMapping("/bootcamp")
+    public String bootcamp() {
+        return "bootcamp";
+    }
 
     @RequestMapping("/corejava1")
     public String corejava1() {
